@@ -1,0 +1,8 @@
+/home/banir/ece309-p3/build/CMakeFiles/harness_core.dir
+/home/banir/ece309-p3/build/CMakeFiles/miniharness.dir
+/home/banir/ece309-p3/build/CMakeFiles/test_p2.dir
+/home/banir/ece309-p3/build/CMakeFiles/test_p3.dir
+/home/banir/ece309-p3/build/CMakeFiles/test_loop.dir
+/home/banir/ece309-p3/build/CMakeFiles/test.dir
+/home/banir/ece309-p3/build/CMakeFiles/edit_cache.dir
+/home/banir/ece309-p3/build/CMakeFiles/rebuild_cache.dir
