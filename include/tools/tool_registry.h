@@ -67,7 +67,17 @@ public:
 
 private:
     // ===== YOUR REPRESENTATION GOES HERE =====
-    // Your buckets, your element count, and any private helpers you want
-    // (for example a rehash function). Store std::unique_ptr<Tool> in the
-    // buckets so that pointers handed out by find() survive a resize.
+private:
+    // one entry in a bucket (tool, actual tool)
+    struct Entry {
+        std::string name;
+        std::unique_ptr<Tool> tool;
+    };
+
+    // array of buckets, each bucket is a list of entries that hashed here
+    std::vector<std::vector<Entry>> buckets_;
+    std::size_t count_; // how many tools are stored total
+
+    // doubles the bucket count and reinserts everything
+    void resize();
 };
