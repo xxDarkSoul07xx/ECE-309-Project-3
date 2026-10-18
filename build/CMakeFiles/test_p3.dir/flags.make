@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/banir/ece309-p3/include
 
-CXX_FLAGS = -std=c++17 -Wall -Wextra -Wpedantic -g -fsanitize=address,undefined -fno-omit-frame-pointer
+CXX_FLAGS = -std=c++17 -Wall -Wextra -Wpedantic -g -Werror -fsanitize=address,undefined -fno-omit-frame-pointer
 
